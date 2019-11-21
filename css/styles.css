@@ -1,0 +1,270 @@
+body{
+	background-color: #fedda3;
+	font-family: Times New Roman;
+}
+
+input{
+	font-family: Times New Roman;
+	font-size: 18pt!important;
+	padding-left: 10px;
+	background-color: #f2f2f1;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 50px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 15px;
+}
+
+button,
+label{
+	font-size: 18pt!important;
+}
+
+textarea{
+	resize: none;
+	font-family: Times New Roman;
+	font-size: 18pt;
+	padding-left: 10px;
+	background-color: #f2f2f1;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 15px;
+}
+
+.logo-col{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+
+.entry{
+	border: none;
+	background: none;
+	cursor: pointer;
+	margin: 20px;
+	font-family: Times New Roman;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.search-form,
+.search-form1{
+	margin: 40px auto;
+	width: 40%;
+	min-width: 450px;
+}
+
+.modal-logo{
+	width: 25%;
+}
+
+.search-form img,
+.search-form1 img{
+	width: 5%;
+	position: relative;
+	right: 10px;
+	top: -40px;
+	float: right;
+}
+
+.search-form1 img{
+	top: -50px;
+}
+
+.search-form > label,
+.search-form1 > label{
+	width: 100%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.logo-col1{
+	min-width: 400px;
+}
+
+.logo-col1 img{
+	margin-top: 10px;
+	height: 40%;
+}
+
+.search-form1{
+	margin-top: 0;
+	margin-left: 0;
+	width: 80%;
+}
+
+.search-form1 > input{
+	margin-top: 10px;
+	height: 65px;
+}
+.card{
+	margin: 1%;
+	background-color: #f2f2f1;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.card-text{
+	display: none;
+}
+
+.gray-div{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.5);
+	display: none;
+	z-index: 1000;
+	background-size: cover;
+}
+
+.on-view{
+	position: fixed;
+	z-index: 1001;
+}
+
+.new-user label,
+.alter-user label{
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 18pt;
+}
+
+.new-user input[type=checkbox],
+.alter-user input[type=checkbox]{
+	margin-top: 0;
+}
+
+.card{
+	cursor: pointer;
+}
+
+.user-info{
+	background-color: #f2f2f1;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 100%;
+	font-size: 18pt;
+	margin-top: 25px;
+	padding: 0;
+	min-width: 500px;
+}
+
+.user-info p{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 5px;
+	line-height: 32pt;
+	height: 50px;
+	border-right: 1px solid gray;
+}
+
+.user-info p span{
+	font-weight: initial;
+	text-align: left;
+	width: 50%;
+}
+
+.btn-user-info{
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 25px;
+	font-size: 18pt;
+}
+
+.new-article form,
+.alter-article form,
+.new-user form,
+.alter-user form{
+	min-width: 500px;
+}
+
+.page-name{
+	padding-top: 10px;
+}
+
+.btn-warning{
+	background-color: #f68028;
+}
+
+.btn-warning:focus{
+	background-color: #fcb63c;
+}
+
+.col-history{
+	text-align: center;
+	font-size: 18pt;
+}
+
+.col-history h5{
+	font-size: 18pt;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+.col-history button{
+	margin-top: 25px;
+}
+
+.col-history table{
+	width: 100%;
+	overflow: hidden;
+}
+
+.col-history table tr:first-child > th:first-child{
+	border-radius: 10px 0 0 0;
+	border-top: none;
+	border-left: none;
+}
+
+.col-history table tr:first-child > th:last-child{
+	border-radius: 0 10px 0 0;
+	border-top: none;
+	border-right: none;
+}
+
+.col-history table tr > td:first-child{
+	border-left: none;
+}
+
+.col-history table tr > td:last-child{
+	border-right: none;
+}
+
+.col-history table tr:last-child > td:last-child{
+	border-radius: 0 0 10px 0;
+}
+
+.col-history table tr:last-child > td:first-child{
+	border-radius: 0 0 0 10px;
+}
+
+.col-history table tr:last-child > td{
+	border-bottom: none;
+}
+
+.col-history table td,
+.col-history table th{
+	border: 2px solid black;
+	background-color: #fcb63c;
+}
+
+@media screen and (max-width: 1350px){
+	.row-admin .col-md-auto{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.row-admin .col-md-auto button{
+		width: 50%;
+		margin-left: 25%;
+	}
+}
